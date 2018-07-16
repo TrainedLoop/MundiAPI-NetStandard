@@ -1,22 +1,24 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MundiAPI.PCL", "MundiAPI.PCL/MundiAPI.PCL.csproj", "{ca2bbc3c-d45e-47ea-a951-7bc703ec4920}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MundiAPI.NetStandard", "MundiAPI.NetStandard\MundiAPI.NetStandard.csproj", "{9C0E6179-F07F-4E93-8216-9E8AC2FD2871}"
 EndProject
 Global
-    GlobalSection(SolutionConfigurationPlatforms) = preSolution
-        Debug|Any CPU = Debug|Any CPU
-        Release|Any CPU = Release|Any CPU
-    EndGlobalSection
-    GlobalSection(ProjectConfigurationPlatforms) = postSolution
-        {ca2bbc3c-d45e-47ea-a951-7bc703ec4920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-        {ca2bbc3c-d45e-47ea-a951-7bc703ec4920}.Debug|Any CPU.Build.0 = Debug|Any CPU
-        {ca2bbc3c-d45e-47ea-a951-7bc703ec4920}.Release|Any CPU.ActiveCfg = Release|Any CPU
-        {ca2bbc3c-d45e-47ea-a951-7bc703ec4920}.Release|Any CPU.Build.0 = Release|Any CPU
-    EndGlobalSection
-    GlobalSection(SolutionProperties) = preSolution
-        HideSolutionNode = FALSE
-    EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C0E6179-F07F-4E93-8216-9E8AC2FD2871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0E6179-F07F-4E93-8216-9E8AC2FD2871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0E6179-F07F-4E93-8216-9E8AC2FD2871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0E6179-F07F-4E93-8216-9E8AC2FD2871}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A69DBD30-4A37-42D1-AC95-7EC13EA077ED}
+	EndGlobalSection
 EndGlobal
