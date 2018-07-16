@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Daniel Porto</Authors>
+    <Description>NetStandard Version of MundiAPI.CSharp</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/dankobaia/MundiAPI-NetStandard</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
